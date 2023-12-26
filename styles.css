@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img/time.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+body .container {
+  width: 60%;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 3px;
+}
+body .container #timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 35px;
+}
+body .container #buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+body .container #buttons button {
+  margin: 0 10px;
+  border: none;
+}
+body .container #buttons button i {
+  font-size: 2rem;
+  padding: 10px;
+  color: #fff;
+  width: 50px;
+}
+body .container #buttons button #play {
+  background-color: green;
+  border-radius: 5px;
+}
+body .container #buttons button #pause {
+  background-color: orange;
+  border-radius: 5px;
+}
+body .container #buttons button #reset {
+  background-color: red;
+  border-radius: 5px;
+}/*# sourceMappingURL=styles.css.map */
